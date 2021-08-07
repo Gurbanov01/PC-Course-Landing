@@ -1,0 +1,53 @@
+.teachers__wrapper {
+	padding-bottom: 200px;
+}
+
+.teachers__title {
+	align-items: none;
+	margin-bottom: 110px;
+}
+
+.teachers__items {
+	display: flex;
+	justify-content: center;
+}
+
+.teacher__item {
+	margin-right: 200px;
+	width: 20%;
+	text-align: center;
+
+	img {
+		margin-bottom: 40px;
+	}
+
+	a {
+		color: #FFFFFF;
+		opacity: 0.8;
+		text-decoration: none;
+		padding: 10px 30px;
+		border: 1px solid #fff;
+		opacity: 0.5;
+		border-radius: 50px;
+
+		transition: 1s linear;
+
+		&:hover {
+			background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+		}
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.teacher__name {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.teacher__prof {
+	margin-bottom: 40px;
+	opacity: 0.8;
+}

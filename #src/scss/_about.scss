@@ -1,0 +1,23 @@
+.about {
+	padding: 150px 0;
+}
+
+.about__wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.about__content {
+	width: 650px;
+	margin-left: 140px;
+}
+.about__title {
+	font-weight: bold;
+	font-size: 48px;
+	margin-bottom: 45px;
+}
+
+.about__text {
+	font-weight: normal;
+	opacity: 0.8;
+}

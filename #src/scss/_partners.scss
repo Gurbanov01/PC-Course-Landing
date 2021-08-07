@@ -1,0 +1,35 @@
+.partners__wrapper {
+	padding-bottom: 240px;
+}
+
+.partners__title {
+	display: flex;
+	margin-bottom: 90px;
+
+	h1 {
+		font-weight: bold;
+		font-size: 48px;
+		margin-left: 30px;
+	}
+}
+
+.col-1,
+.col-2 {
+	display: flex;
+	.partners__logo {
+		padding: 30px 60px;
+		opacity: 0.8;
+		border-right: 1px solid #ffffff;
+		border-bottom: 1px solid #ffffff;
+
+		&:last-child {
+			border-right: none;
+		}
+	}
+}
+
+.col-2 {
+	.partners__logo {
+		border-bottom: none;
+	}
+}

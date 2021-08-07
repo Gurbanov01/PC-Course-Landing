@@ -1,0 +1,34 @@
+.profesion__wrapper{
+	text-align: center;
+	padding-bottom: 230px;
+}
+
+.profesion__title {
+	font-weight: bold;
+	font-size: 48px;
+	margin-bottom: 120px;
+}
+
+.profesion__service {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service__item {
+	width: 30%;
+}
+
+.service__title {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.service__icon {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 60px;
+}
+
+.service_text {
+	opacity: 0.8;
+}
